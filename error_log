@@ -1,0 +1,1761 @@
+[18-Oct-2025 12:29:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/kitaplar.php:104
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/kitaplar.php on line 104
+[18-Oct-2025 12:30:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/ogrenciler.php:96
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/ogrenciler.php on line 96
+[18-Oct-2025 12:30:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/ogrenciler.php:96
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/ogrenciler.php on line 96
+[18-Oct-2025 12:30:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/kitaplar.php:104
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/kitaplar.php on line 104
+[18-Oct-2025 12:30:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/ogrenciler.php:96
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/ogrenciler.php on line 96
+[18-Oct-2025 12:32:09 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "footer.php" in /home/acc943aecakayme/public_html/okul_kutuphane/ogrenciler.php on line 125
+[18-Oct-2025 12:32:10 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "footer.php" in /home/acc943aecakayme/public_html/okul_kutuphane/ogrenciler.php on line 125
+[18-Oct-2025 15:42:53 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'durum' in 'field list' in /home/acc943aecakayme/public_html/okul_kutuphane/kitap_detay.php:19
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/kitap_detay.php(19): mysqli->prepare()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/kitap_detay.php on line 19
+[18-Oct-2025 15:42:54 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'durum' in 'field list' in /home/acc943aecakayme/public_html/okul_kutuphane/katalog.php:57
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/katalog.php(57): mysqli->prepare()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/katalog.php on line 57
+[18-Oct-2025 15:43:00 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'durum' in 'where clause' in /home/acc943aecakayme/public_html/okul_kutuphane/index.php:10
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/index.php(10): mysqli->query()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/index.php on line 10
+[18-Oct-2025 15:43:17 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'islemler.kitap_id' in 'on clause' in /home/acc943aecakayme/public_html/okul_kutuphane/gecmis.php:76
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/gecmis.php(76): mysqli->prepare()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/gecmis.php on line 76
+[18-Oct-2025 15:43:20 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'durum' in 'where clause' in /home/acc943aecakayme/public_html/okul_kutuphane/index.php:10
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/index.php(10): mysqli->query()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/index.php on line 10
+[18-Oct-2025 15:51:27 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'islemler.kitap_id' in 'on clause' in /home/acc943aecakayme/public_html/okul_kutuphane/gecikenler.php:38
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/gecikenler.php(38): mysqli->query()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/gecikenler.php on line 38
+[18-Oct-2025 15:51:40 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'durum' in 'where clause' in /home/acc943aecakayme/public_html/okul_kutuphane/islemler.php:110
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/islemler.php(110): mysqli->query()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/islemler.php on line 110
+[18-Oct-2025 15:51:44 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'islemler.kitap_id' in 'on clause' in /home/acc943aecakayme/public_html/okul_kutuphane/gecmis.php:76
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/gecmis.php(76): mysqli->prepare()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/gecmis.php on line 76
+[18-Oct-2025 15:56:14 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'durum' in 'where clause' in /home/acc943aecakayme/public_html/okul_kutuphane/islemler.php:110
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/islemler.php(110): mysqli->query()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/islemler.php on line 110
+[18-Oct-2025 15:56:53 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'durum' in 'where clause' in /home/acc943aecakayme/public_html/okul_kutuphane/islemler.php:110
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/islemler.php(110): mysqli->query()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/islemler.php on line 110
+[18-Oct-2025 15:57:26 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'durum' in 'where clause' in /home/acc943aecakayme/public_html/okul_kutuphane/islemler.php:110
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/islemler.php(110): mysqli->query()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/islemler.php on line 110
+[18-Oct-2025 15:57:32 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'durum' in 'where clause' in /home/acc943aecakayme/public_html/okul_kutuphane/islemler.php:110
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/islemler.php(110): mysqli->query()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/islemler.php on line 110
+[18-Oct-2025 16:09:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'okul_kutuphane.kopyalar' doesn't exist in /home/acc943aecakayme/public_html/okul_kutuphane/index.php:9
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/index.php(9): mysqli->query()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/index.php on line 9
+[18-Oct-2025 16:09:21 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'okul_kutuphane.kopyalar' doesn't exist in /home/acc943aecakayme/public_html/okul_kutuphane/index.php:9
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/index.php(9): mysqli->query()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/index.php on line 9
+[18-Oct-2025 16:33:00 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'okul_kutuphane.kopyalar' doesn't exist in /home/acc943aecakayme/public_html/okul_kutuphane/index.php:9
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/index.php(9): mysqli->query()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/index.php on line 9
+[18-Oct-2025 17:13:15 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'okul_kutuphane.kopyalar' doesn't exist in /home/acc943aecakayme/public_html/okul_kutuphane/index.php:9
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/index.php(9): mysqli->query()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/index.php on line 9
+[18-Oct-2025 19:53:27 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'okul_kutuphane.kopyalar' doesn't exist in /home/acc943aecakayme/public_html/okul_kutuphane/index.php:9
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/index.php(9): mysqli->query()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/index.php on line 9
+[18-Oct-2025 19:53:28 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'okul_kutuphane.kopyalar' doesn't exist in /home/acc943aecakayme/public_html/okul_kutuphane/index.php:9
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/index.php(9): mysqli->query()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/index.php on line 9
+[18-Oct-2025 19:53:29 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'okul_kutuphane.kopyalar' doesn't exist in /home/acc943aecakayme/public_html/okul_kutuphane/gecikenler.php:40
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/gecikenler.php(40): mysqli->query()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/gecikenler.php on line 40
+[18-Oct-2025 19:53:31 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'okul_kutuphane.kopyalar' doesn't exist in /home/acc943aecakayme/public_html/okul_kutuphane/index.php:9
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/index.php(9): mysqli->query()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/index.php on line 9
+[18-Oct-2025 19:57:05 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'okul_kutuphane.kopyalar' doesn't exist in /home/acc943aecakayme/public_html/okul_kutuphane/gecikenler.php:40
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/gecikenler.php(40): mysqli->query()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/gecikenler.php on line 40
+[18-Oct-2025 19:57:07 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'okul_kutuphane.kopyalar' doesn't exist in /home/acc943aecakayme/public_html/okul_kutuphane/gecikenler.php:40
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/gecikenler.php(40): mysqli->query()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/gecikenler.php on line 40
+[18-Oct-2025 19:57:22 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'okul_kutuphane.kopyalar' doesn't exist in /home/acc943aecakayme/public_html/okul_kutuphane/islemler.php:139
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/islemler.php(139): mysqli->query()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/islemler.php on line 139
+[18-Oct-2025 19:57:27 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'okul_kutuphane.kopyalar' doesn't exist in /home/acc943aecakayme/public_html/okul_kutuphane/gecmis.php:67
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/gecmis.php(67): mysqli->prepare()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/gecmis.php on line 67
+[18-Oct-2025 20:00:25 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'okul_kutuphane.kopyalar' doesn't exist in /home/acc943aecakayme/public_html/okul_kutuphane/islemler.php:139
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/islemler.php(139): mysqli->query()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/islemler.php on line 139
+[18-Oct-2025 20:00:36 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'okul_kutuphane.kopyalar' doesn't exist in /home/acc943aecakayme/public_html/okul_kutuphane/islemler.php:139
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/islemler.php(139): mysqli->query()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/islemler.php on line 139
+[18-Oct-2025 20:17:12 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'durum' in 'field list' in /home/acc943aecakayme/public_html/okul_kutuphane/katalog.php:57
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/katalog.php(57): mysqli->prepare()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/katalog.php on line 57
+[18-Oct-2025 20:17:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'durum' in 'field list' in /home/acc943aecakayme/public_html/okul_kutuphane/katalog.php:57
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/katalog.php(57): mysqli->prepare()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/katalog.php on line 57
+[18-Oct-2025 20:20:05 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'durum' in 'field list' in /home/acc943aecakayme/public_html/okul_kutuphane/kitap_detay.php:19
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/kitap_detay.php(19): mysqli->prepare()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/kitap_detay.php on line 19
+[18-Oct-2025 23:37:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/arama_odunc.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/arama_odunc.php on line 23
+[18-Oct-2025 23:43:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/arama_odunc.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/arama_odunc.php on line 23
+[18-Oct-2025 23:43:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/arama_odunc.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/arama_odunc.php on line 23
+[18-Oct-2025 23:43:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/arama_odunc.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/arama_odunc.php on line 23
+[18-Oct-2025 23:44:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/arama_odunc.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/arama_odunc.php on line 23
+[18-Oct-2025 23:45:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/arama_odunc.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/arama_odunc.php on line 23
+[19-Oct-2025 14:56:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function close() in /home/acc943aecakayme/public_html/okul_kutuphane/islemler.php:74
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/islemler.php on line 74
+[19-Oct-2025 14:56:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function close() in /home/acc943aecakayme/public_html/okul_kutuphane/islemler.php:74
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/islemler.php on line 74
+[19-Oct-2025 22:51:42 UTC] PHP Parse error:  syntax error, unexpected identifier "error" in /home/acc943aecakayme/public_html/okul_kutuphane/ayarlar.php on line 36
+[19-Oct-2025 22:51:55 UTC] PHP Parse error:  syntax error, unexpected identifier "error" in /home/acc943aecakayme/public_html/okul_kutuphane/ayarlar.php on line 36
+[19-Oct-2025 22:51:56 UTC] PHP Parse error:  syntax error, unexpected identifier "error" in /home/acc943aecakayme/public_html/okul_kutuphane/ayarlar.php on line 36
+[20-Oct-2025 16:25:06 UTC] PHP Warning:  Undefined array key "username" in /home/acc943aecakayme/public_html/okul_kutuphane/index.php on line 36
+[20-Oct-2025 16:25:08 UTC] PHP Warning:  Undefined array key "username" in /home/acc943aecakayme/public_html/okul_kutuphane/index.php on line 36
+[20-Oct-2025 16:25:09 UTC] PHP Warning:  Undefined array key "username" in /home/acc943aecakayme/public_html/okul_kutuphane/index.php on line 36
+[22-Oct-2025 23:12:21 UTC] PHP Warning:  require_once(/home/acc943aecakayme/public_html/okul_kutuphane/mpdf/autoload.php): Failed to open stream: No such file or directory in /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php on line 12
+[22-Oct-2025 23:12:21 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/acc943aecakayme/public_html/okul_kutuphane/mpdf/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php on line 12
+[22-Oct-2025 23:12:26 UTC] PHP Warning:  require_once(/home/acc943aecakayme/public_html/okul_kutuphane/mpdf/autoload.php): Failed to open stream: No such file or directory in /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php on line 12
+[22-Oct-2025 23:12:26 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/acc943aecakayme/public_html/okul_kutuphane/mpdf/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php on line 12
+[22-Oct-2025 23:12:30 UTC] PHP Warning:  require_once(/home/acc943aecakayme/public_html/okul_kutuphane/mpdf/autoload.php): Failed to open stream: No such file or directory in /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php on line 12
+[22-Oct-2025 23:12:30 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/acc943aecakayme/public_html/okul_kutuphane/mpdf/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php on line 12
+[22-Oct-2025 23:25:20 UTC] PHP Warning:  require_once(/home/acc943aecakayme/public_html/okul_kutuphane/mpdf/autoload.php): Failed to open stream: No such file or directory in /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php on line 12
+[22-Oct-2025 23:25:20 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/acc943aecakayme/public_html/okul_kutuphane/mpdf/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php on line 12
+[22-Oct-2025 23:28:41 UTC] PHP Warning:  require_once(/home/acc943aecakayme/public_html/okul_kutuphane/mpdf/autoload.php): Failed to open stream: No such file or directory in /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php on line 12
+[22-Oct-2025 23:28:41 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/acc943aecakayme/public_html/okul_kutuphane/mpdf/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php on line 12
+[22-Oct-2025 23:39:47 UTC] PHP Fatal error:  Trait "Mpdf\Strict" not found in /home/acc943aecakayme/public_html/okul_kutuphane/mpdf/src/Mpdf.php on line 28
+[23-Oct-2025 00:01:17 UTC] PHP Fatal error:  Trait "Mpdf\Strict" not found in /home/acc943aecakayme/public_html/okul_kutuphane/mpdf/src/Mpdf.php on line 29
+[23-Oct-2025 00:02:25 UTC] PHP Warning:  require_once(/home/acc943aecakayme/public_html/okul_kutuphane/mpdf/vendor/autoload.php): Failed to open stream: No such file or directory in /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php on line 12
+[23-Oct-2025 00:02:25 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/acc943aecakayme/public_html/okul_kutuphane/mpdf/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php on line 12
+[23-Oct-2025 00:02:30 UTC] PHP Warning:  require_once(/home/acc943aecakayme/public_html/okul_kutuphane/mpdf/vendor/autoload.php): Failed to open stream: No such file or directory in /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php on line 12
+[23-Oct-2025 00:02:30 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/acc943aecakayme/public_html/okul_kutuphane/mpdf/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php on line 12
+[23-Oct-2025 00:04:10 UTC] PHP Warning:  require_once(/home/acc943aecakayme/public_html/okul_kutuphane/mpdf/vendor/autoload.php): Failed to open stream: No such file or directory in /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php on line 12
+[23-Oct-2025 00:04:10 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/acc943aecakayme/public_html/okul_kutuphane/mpdf/vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php on line 12
+[23-Oct-2025 00:08:12 UTC] PHP Warning:  include(/home/acc943aecakayme/public_html/okul_kutuphane/fpdf/font/DejaVuSans.php): Failed to open stream: No such file or directory in /home/acc943aecakayme/public_html/okul_kutuphane/fpdf/fpdf.php on line 1137
+[23-Oct-2025 00:08:12 UTC] PHP Warning:  include(/home/acc943aecakayme/public_html/okul_kutuphane/fpdf/font/DejaVuSans.php): Failed to open stream: No such file or directory in /home/acc943aecakayme/public_html/okul_kutuphane/fpdf/fpdf.php on line 1137
+[23-Oct-2025 00:08:12 UTC] PHP Warning:  include(): Failed opening '/home/acc943aecakayme/public_html/okul_kutuphane/fpdf/font/DejaVuSans.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/acc943aecakayme/public_html/okul_kutuphane/fpdf/fpdf.php on line 1137
+[23-Oct-2025 00:08:12 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Could not include font definition file: /home/acc943aecakayme/public_html/okul_kutuphane/fpdf/font/DejaVuSans.php in /home/acc943aecakayme/public_html/okul_kutuphane/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/fpdf/fpdf.php(1139): FPDF->Error()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/fpdf/fpdf.php(461): FPDF->_loadfont()
+#2 /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php(21): FPDF->AddFont()
+#3 /home/acc943aecakayme/public_html/okul_kutuphane/fpdf/fpdf.php(330): PDF->Header()
+#4 /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php(49): FPDF->AddPage()
+#5 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/fpdf/fpdf.php on line 267
+[23-Oct-2025 00:08:23 UTC] PHP Warning:  include(/home/acc943aecakayme/public_html/okul_kutuphane/fpdf/font/DejaVuSans.php): Failed to open stream: No such file or directory in /home/acc943aecakayme/public_html/okul_kutuphane/fpdf/fpdf.php on line 1137
+[23-Oct-2025 00:08:23 UTC] PHP Warning:  include(/home/acc943aecakayme/public_html/okul_kutuphane/fpdf/font/DejaVuSans.php): Failed to open stream: No such file or directory in /home/acc943aecakayme/public_html/okul_kutuphane/fpdf/fpdf.php on line 1137
+[23-Oct-2025 00:08:23 UTC] PHP Warning:  include(): Failed opening '/home/acc943aecakayme/public_html/okul_kutuphane/fpdf/font/DejaVuSans.php' for inclusion (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/acc943aecakayme/public_html/okul_kutuphane/fpdf/fpdf.php on line 1137
+[23-Oct-2025 00:08:23 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Could not include font definition file: /home/acc943aecakayme/public_html/okul_kutuphane/fpdf/font/DejaVuSans.php in /home/acc943aecakayme/public_html/okul_kutuphane/fpdf/fpdf.php:267
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/fpdf/fpdf.php(1139): FPDF->Error()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/fpdf/fpdf.php(461): FPDF->_loadfont()
+#2 /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php(21): FPDF->AddFont()
+#3 /home/acc943aecakayme/public_html/okul_kutuphane/fpdf/fpdf.php(330): PDF->Header()
+#4 /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php(49): FPDF->AddPage()
+#5 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/fpdf/fpdf.php on line 267
+[23-Oct-2025 07:28:22 UTC] PHP Warning:  require_once(/home/acc943aecakayme/public_html/okul_kutuphane/tfpdf/tFPDF.php): Failed to open stream: No such file or directory in /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php on line 12
+[23-Oct-2025 07:28:22 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/acc943aecakayme/public_html/okul_kutuphane/tfpdf/tFPDF.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php on line 12
+[23-Oct-2025 07:36:48 UTC] PHP Warning:  require_once(/home/acc943aecakayme/public_html/okul_kutuphane/tfpdf/tFPDF.php): Failed to open stream: No such file or directory in /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php on line 12
+[23-Oct-2025 07:36:48 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/acc943aecakayme/public_html/okul_kutuphane/tfpdf/tFPDF.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php on line 12
+[23-Oct-2025 07:36:48 UTC] PHP Warning:  require_once(/home/acc943aecakayme/public_html/okul_kutuphane/tfpdf/tFPDF.php): Failed to open stream: No such file or directory in /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php on line 12
+[23-Oct-2025 07:36:48 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/acc943aecakayme/public_html/okul_kutuphane/tfpdf/tFPDF.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php on line 12
+[23-Oct-2025 07:36:56 UTC] PHP Warning:  require_once(/home/acc943aecakayme/public_html/okul_kutuphane/tfpdf/tFPDF.php): Failed to open stream: No such file or directory in /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php on line 12
+[23-Oct-2025 07:36:56 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/acc943aecakayme/public_html/okul_kutuphane/tfpdf/tFPDF.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php on line 12
+[23-Oct-2025 07:39:29 UTC] PHP Warning:  require_once(/home/acc943aecakayme/public_html/okul_kutuphane/tfpdf/tFPDF.php): Failed to open stream: No such file or directory in /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php on line 12
+[23-Oct-2025 07:39:29 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/acc943aecakayme/public_html/okul_kutuphane/tfpdf/tFPDF.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php on line 12
+[23-Oct-2025 07:53:39 UTC] PHP Warning:  require_once(/home/acc943aecakayme/public_html/okul_kutuphane/tfpdf/tFPDF.php): Failed to open stream: No such file or directory in /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php on line 12
+[23-Oct-2025 07:53:39 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/acc943aecakayme/public_html/okul_kutuphane/tfpdf/tFPDF.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php on line 12
+[23-Oct-2025 07:54:20 UTC] PHP Warning:  require_once(/home/acc943aecakayme/public_html/okul_kutuphane/tfpdf/tFPDF.php): Failed to open stream: No such file or directory in /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php on line 12
+[23-Oct-2025 07:54:20 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/acc943aecakayme/public_html/okul_kutuphane/tfpdf/tFPDF.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php on line 12
+[23-Oct-2025 07:54:21 UTC] PHP Warning:  require_once(/home/acc943aecakayme/public_html/okul_kutuphane/tfpdf/tFPDF.php): Failed to open stream: No such file or directory in /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php on line 12
+[23-Oct-2025 07:54:21 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/acc943aecakayme/public_html/okul_kutuphane/tfpdf/tFPDF.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php on line 12
+[23-Oct-2025 08:15:09 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting variable or "${" or "{$" in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php on line 50
+[23-Oct-2025 08:15:20 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting variable or "${" or "{$" in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php on line 50
+[23-Oct-2025 08:15:27 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting variable or "${" or "{$" in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php on line 50
+[23-Oct-2025 12:11:28 UTC] PHP Warning:  Undefined variable $etkilenen_satir in /home/acc943aecakayme/public_html/okul_kutuphane/sinif_atlat_islem.php on line 77
+[23-Oct-2025 12:51:54 UTC] PHP Warning:  Undefined array key "ayar_değeri" in /home/acc943aecakayme/public_html/okul_kutuphane/ayarlar.php on line 181
+[23-Oct-2025 12:51:54 UTC] PHP Warning:  Undefined array key "ayar_değeri" in /home/acc943aecakayme/public_html/okul_kutuphane/ayarlar.php on line 181
+[23-Oct-2025 12:51:54 UTC] PHP Warning:  Undefined array key "ayar_değeri" in /home/acc943aecakayme/public_html/okul_kutuphane/ayarlar.php on line 181
+[23-Oct-2025 12:51:54 UTC] PHP Warning:  Undefined array key "ayar_değeri" in /home/acc943aecakayme/public_html/okul_kutuphane/ayarlar.php on line 181
+[23-Oct-2025 12:51:54 UTC] PHP Warning:  Undefined array key "ayar_değeri" in /home/acc943aecakayme/public_html/okul_kutuphane/ayarlar.php on line 181
+[23-Oct-2025 12:51:54 UTC] PHP Warning:  Undefined array key "ayar_değeri" in /home/acc943aecakayme/public_html/okul_kutuphane/ayarlar.php on line 181
+[23-Oct-2025 18:54:03 UTC] PHP Warning:  Undefined array key "ayar_değeri" in /home/acc943aecakayme/public_html/okul_kutuphane/ayarlar.php on line 181
+[23-Oct-2025 18:54:03 UTC] PHP Warning:  Undefined array key "ayar_değeri" in /home/acc943aecakayme/public_html/okul_kutuphane/ayarlar.php on line 181
+[23-Oct-2025 18:54:03 UTC] PHP Warning:  Undefined array key "ayar_değeri" in /home/acc943aecakayme/public_html/okul_kutuphane/ayarlar.php on line 181
+[23-Oct-2025 18:54:03 UTC] PHP Warning:  Undefined array key "ayar_değeri" in /home/acc943aecakayme/public_html/okul_kutuphane/ayarlar.php on line 181
+[23-Oct-2025 18:54:03 UTC] PHP Warning:  Undefined array key "ayar_değeri" in /home/acc943aecakayme/public_html/okul_kutuphane/ayarlar.php on line 181
+[23-Oct-2025 18:54:03 UTC] PHP Warning:  Undefined array key "ayar_değeri" in /home/acc943aecakayme/public_html/okul_kutuphane/ayarlar.php on line 181
+[23-Oct-2025 19:57:47 UTC] PHP Warning:  Undefined array key "ayar_değeri" in /home/acc943aecakayme/public_html/okul_kutuphane/ayarlar.php on line 181
+[23-Oct-2025 19:57:47 UTC] PHP Warning:  Undefined array key "ayar_değeri" in /home/acc943aecakayme/public_html/okul_kutuphane/ayarlar.php on line 181
+[23-Oct-2025 19:57:47 UTC] PHP Warning:  Undefined array key "ayar_değeri" in /home/acc943aecakayme/public_html/okul_kutuphane/ayarlar.php on line 181
+[23-Oct-2025 19:57:47 UTC] PHP Warning:  Undefined array key "ayar_değeri" in /home/acc943aecakayme/public_html/okul_kutuphane/ayarlar.php on line 181
+[23-Oct-2025 19:57:47 UTC] PHP Warning:  Undefined array key "ayar_değeri" in /home/acc943aecakayme/public_html/okul_kutuphane/ayarlar.php on line 181
+[23-Oct-2025 19:57:47 UTC] PHP Warning:  Undefined array key "ayar_değeri" in /home/acc943aecakayme/public_html/okul_kutuphane/ayarlar.php on line 181
+[23-Oct-2025 21:06:15 UTC] PHP Warning:  Undefined array key "ayar_değeri" in /home/acc943aecakayme/public_html/okul_kutuphane/ayarlar.php on line 181
+[23-Oct-2025 21:06:15 UTC] PHP Warning:  Undefined array key "ayar_değeri" in /home/acc943aecakayme/public_html/okul_kutuphane/ayarlar.php on line 181
+[23-Oct-2025 21:06:15 UTC] PHP Warning:  Undefined array key "ayar_değeri" in /home/acc943aecakayme/public_html/okul_kutuphane/ayarlar.php on line 181
+[23-Oct-2025 21:06:15 UTC] PHP Warning:  Undefined array key "ayar_değeri" in /home/acc943aecakayme/public_html/okul_kutuphane/ayarlar.php on line 181
+[23-Oct-2025 21:06:15 UTC] PHP Warning:  Undefined array key "ayar_değeri" in /home/acc943aecakayme/public_html/okul_kutuphane/ayarlar.php on line 181
+[23-Oct-2025 21:06:15 UTC] PHP Warning:  Undefined array key "ayar_değeri" in /home/acc943aecakayme/public_html/okul_kutuphane/ayarlar.php on line 181
+[24-Oct-2025 19:59:43 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:14
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(14): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(63): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 14
+[24-Oct-2025 22:39:00 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:14
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(14): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(63): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 14
+[24-Oct-2025 22:39:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/index.php:55
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/index.php on line 55
+[24-Oct-2025 22:49:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/index.php:55
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/index.php on line 55
+[24-Oct-2025 23:01:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/index.php:55
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/index.php on line 55
+[24-Oct-2025 23:01:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/index.php:55
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/index.php on line 55
+[24-Oct-2025 23:18:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/index.php:55
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/index.php on line 55
+[24-Oct-2025 23:18:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/pdf_rapor.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/pdf_rapor.php on line 19
+[24-Oct-2025 23:18:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/pdf_rapor.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/pdf_rapor.php on line 19
+[24-Oct-2025 23:18:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/gecikenler.php:42
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/gecikenler.php on line 42
+[24-Oct-2025 23:19:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/ogrenci_panel.php:62
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/ogrenci_panel.php on line 62
+[24-Oct-2025 23:52:56 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:14
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(14): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(63): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 14
+[24-Oct-2025 23:52:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/rezervasyonlar.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/rezervasyonlar.php on line 32
+[24-Oct-2025 23:52:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/index.php:55
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/index.php on line 55
+[24-Oct-2025 23:52:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/pdf_rapor.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/pdf_rapor.php on line 19
+[24-Oct-2025 23:53:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/gecikenler.php:42
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/gecikenler.php on line 42
+[24-Oct-2025 23:53:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/sinif_atlat.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/sinif_atlat.php on line 23
+[24-Oct-2025 23:53:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/rezervasyonlar.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/rezervasyonlar.php on line 32
+[24-Oct-2025 23:55:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/index.php:55
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/index.php on line 55
+[24-Oct-2025 23:56:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/pdf_rapor.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/pdf_rapor.php on line 19
+[24-Oct-2025 23:57:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/pdf_rapor.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/pdf_rapor.php on line 19
+[24-Oct-2025 23:58:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/gecikenler.php:42
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/gecikenler.php on line 42
+[24-Oct-2025 23:59:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/sinif_atlat.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/sinif_atlat.php on line 23
+[25-Oct-2025 00:00:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/ogrenci_panel.php:32
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/ogrenci_panel.php on line 32
+[25-Oct-2025 00:02:02 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:14
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(14): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(63): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 14
+[25-Oct-2025 00:02:32 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:14
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(14): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(63): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 14
+[25-Oct-2025 00:03:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/iade_al.php:65
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/iade_al.php on line 65
+[25-Oct-2025 00:03:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/iade_al.php:65
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/iade_al.php on line 65
+[25-Oct-2025 00:03:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/iade_al.php:65
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/iade_al.php on line 65
+[25-Oct-2025 00:03:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/iade_al.php:65
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/iade_al.php on line 65
+[25-Oct-2025 00:03:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/iade_al.php:65
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/iade_al.php on line 65
+[25-Oct-2025 00:03:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/iade_al.php:65
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/iade_al.php on line 65
+[25-Oct-2025 00:13:00 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:14
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(14): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(63): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 14
+[25-Oct-2025 00:15:13 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:14
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(14): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(63): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 14
+[25-Oct-2025 00:16:55 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:14
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(14): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(63): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 14
+[25-Oct-2025 00:17:22 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:14
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(14): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(63): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 14
+[25-Oct-2025 00:17:44 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:14
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(14): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(63): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 14
+[25-Oct-2025 00:17:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/iade_al.php:65
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/iade_al.php on line 65
+[25-Oct-2025 00:17:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/iade_al.php:65
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/iade_al.php on line 65
+[25-Oct-2025 00:17:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/iade_al.php:65
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/iade_al.php on line 65
+[25-Oct-2025 00:19:19 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:14
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(14): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(63): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 14
+[25-Oct-2025 00:19:24 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:14
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(14): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(63): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 14
+[25-Oct-2025 00:21:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/yonetici_yonetimi.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/yonetici_yonetimi.php on line 33
+[25-Oct-2025 07:22:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/ogrenci_panel.php:54
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/ogrenci_panel.php on line 54
+[25-Oct-2025 07:22:43 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:14
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(14): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(63): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 14
+[25-Oct-2025 07:27:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/ogrenci_panel.php:54
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/ogrenci_panel.php on line 54
+[25-Oct-2025 07:27:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/ogrenci_panel.php:54
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/ogrenci_panel.php on line 54
+[25-Oct-2025 07:27:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/ogrenci_panel.php:54
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/ogrenci_panel.php on line 54
+[25-Oct-2025 07:27:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/ogrenci_panel.php:54
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/ogrenci_panel.php on line 54
+[25-Oct-2025 07:27:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/ogrenci_panel.php:54
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/ogrenci_panel.php on line 54
+[25-Oct-2025 07:27:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/ogrenci_panel.php:54
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/ogrenci_panel.php on line 54
+[25-Oct-2025 07:27:28 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:14
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(14): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(63): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 14
+[25-Oct-2025 07:27:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/ogrenci_panel.php:54
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/ogrenci_panel.php on line 54
+[25-Oct-2025 07:38:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/ogrenci_panel.php:140
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/ogrenci_panel.php on line 140
+[25-Oct-2025 07:38:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/ogrenci_panel.php:140
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/ogrenci_panel.php on line 140
+[25-Oct-2025 07:38:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/ogrenci_panel.php:140
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/ogrenci_panel.php on line 140
+[25-Oct-2025 07:38:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/ogrenci_panel.php:140
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/ogrenci_panel.php on line 140
+[25-Oct-2025 07:38:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/ogrenci_panel.php:140
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/ogrenci_panel.php on line 140
+[25-Oct-2025 07:45:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/ogrenci_panel.php:140
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/ogrenci_panel.php on line 140
+[25-Oct-2025 07:46:31 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/ogrenci_panel.php:223
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/ogrenci_panel.php(223): mysqli->prepare()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/ogrenci_panel.php on line 223
+[25-Oct-2025 07:51:27 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:14
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(14): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(63): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 14
+[25-Oct-2025 08:01:14 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:14
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(14): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(63): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 14
+[25-Oct-2025 11:18:29 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:14
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(14): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(63): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 14
+[25-Oct-2025 11:19:45 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:14
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(14): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(63): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 14
+[25-Oct-2025 11:20:23 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:14
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(14): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(63): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 14
+[25-Oct-2025 11:21:06 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:14
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(14): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(63): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 14
+[25-Oct-2025 11:23:38 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:14
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(14): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(63): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 14
+[25-Oct-2025 11:25:51 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:14
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(14): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(63): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 14
+[25-Oct-2025 11:29:30 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:14
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(14): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(63): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 14
+[25-Oct-2025 11:29:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/iade_al.php:65
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/iade_al.php on line 65
+[25-Oct-2025 11:29:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/iade_al.php:65
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/iade_al.php on line 65
+[25-Oct-2025 11:29:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/iade_al.php:65
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/iade_al.php on line 65
+[25-Oct-2025 11:29:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/iade_al.php:65
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/iade_al.php on line 65
+[25-Oct-2025 11:35:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/iade_al.php:65
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/iade_al.php on line 65
+[25-Oct-2025 11:35:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/iade_al.php:65
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/iade_al.php on line 65
+[25-Oct-2025 11:35:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/iade_al.php:65
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/iade_al.php on line 65
+[25-Oct-2025 11:35:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/iade_al.php:65
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/iade_al.php on line 65
+[25-Oct-2025 11:45:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/iade_al.php:65
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/iade_al.php on line 65
+[25-Oct-2025 11:45:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/iade_al.php:65
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/iade_al.php on line 65
+[25-Oct-2025 11:45:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/iade_al.php:65
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/iade_al.php on line 65
+[25-Oct-2025 11:52:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/iade_al.php:65
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/iade_al.php on line 65
+[25-Oct-2025 11:52:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/iade_al.php:65
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/iade_al.php on line 65
+[25-Oct-2025 11:59:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/iade_al.php:65
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/iade_al.php on line 65
+[25-Oct-2025 12:01:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/iade_al.php:65
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/iade_al.php on line 65
+[25-Oct-2025 12:01:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/iade_al.php:65
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/iade_al.php on line 65
+[25-Oct-2025 12:06:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/iade_al.php:65
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/iade_al.php on line 65
+[25-Oct-2025 12:08:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/iade_al.php:65
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/iade_al.php on line 65
+[25-Oct-2025 12:10:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/iade_al.php:62
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/iade_al.php on line 62
+[25-Oct-2025 12:10:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/iade_al.php:62
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/iade_al.php on line 62
+[25-Oct-2025 12:10:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/iade_al.php:62
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/iade_al.php on line 62
+[25-Oct-2025 12:10:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/iade_al.php:62
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/iade_al.php on line 62
+[25-Oct-2025 12:29:16 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:14
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(14): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(63): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 14
+[25-Oct-2025 13:43:38 UTC] PHP Warning:  Undefined variable $kitaplar in /home/acc943aecakayme/public_html/okul_kutuphane/ogrenci_panel.php on line 27
+[25-Oct-2025 13:43:38 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home/acc943aecakayme/public_html/okul_kutuphane/ogrenci_panel.php:27
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/ogrenci_panel.php on line 27
+[25-Oct-2025 14:04:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/arama_ogrenci_katalog.php:50
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/arama_ogrenci_katalog.php on line 50
+[25-Oct-2025 14:07:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/arama_ogrenci_katalog.php:50
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/arama_ogrenci_katalog.php on line 50
+[25-Oct-2025 14:17:12 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/ogrenci_panel.php:285
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/ogrenci_panel.php(285): mysqli->close()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/ogrenci_panel.php on line 285
+[25-Oct-2025 14:24:30 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:14
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(14): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(63): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 14
+[25-Oct-2025 14:33:50 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:14
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(14): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(62): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 14
+[25-Oct-2025 14:37:07 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:14
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(14): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(62): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 14
+[25-Oct-2025 14:37:41 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'okul_adi' for key 'ayarlar.PRIMARY' in /home/acc943aecakayme/public_html/okul_kutuphane/ayarlar.php:35
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/ayarlar.php(35): mysqli_stmt->execute()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/ayarlar.php(51): update_or_insert_ayar()
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/ayarlar.php on line 35
+[25-Oct-2025 14:43:00 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:14
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(14): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(62): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 14
+[25-Oct-2025 14:59:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/export.php:46
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/export.php on line 46
+[25-Oct-2025 17:25:06 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:14
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(14): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(62): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 14
+[25-Oct-2025 17:33:21 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:14
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(14): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(62): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 14
+[25-Oct-2025 17:38:45 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:14
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(14): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(62): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 14
+[25-Oct-2025 17:43:17 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:14
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(14): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(62): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 14
+[25-Oct-2025 18:02:42 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:14
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(14): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(62): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 14
+[25-Oct-2025 18:18:15 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:14
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(14): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(62): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 14
+[25-Oct-2025 18:19:04 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:14
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(14): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(62): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 14
+[25-Oct-2025 18:20:49 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:14
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(14): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(62): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 14
+[25-Oct-2025 18:20:55 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:14
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(14): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(62): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 14
+[25-Oct-2025 18:48:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/test_ogrenciler.php:42
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/test_ogrenciler.php on line 42
+[25-Oct-2025 19:04:38 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:14
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(14): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(58): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 14
+[25-Oct-2025 20:42:49 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:14
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(14): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(58): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 14
+[25-Oct-2025 20:55:26 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/acc943aecakayme/public_html/okul_kutuphane/test_google_books_api.php on line 17
+[25-Oct-2025 20:55:26 UTC] PHP Warning:  file_get_contents(https://www.googleapis.com/books/v1/volumes?q=isbn:9786057388732): Failed to open stream: no suitable wrapper could be found in /home/acc943aecakayme/public_html/okul_kutuphane/test_google_books_api.php on line 17
+[25-Oct-2025 21:50:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/arama_yonetim_kitap.php:69
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/arama_yonetim_kitap.php on line 69
+[25-Oct-2025 21:52:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/arama_yonetim_kitap.php:68
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/arama_yonetim_kitap.php on line 68
+[25-Oct-2025 21:53:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/arama_yonetim_kitap.php:67
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/arama_yonetim_kitap.php on line 67
+[25-Oct-2025 21:56:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/arama_yonetim_ogrenci.php:58
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/arama_yonetim_ogrenci.php on line 58
+[25-Oct-2025 21:56:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/arama_yonetim_ogrenci.php:58
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/arama_yonetim_ogrenci.php on line 58
+[25-Oct-2025 21:56:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/arama_yonetim_ogrenci.php:58
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/arama_yonetim_ogrenci.php on line 58
+[25-Oct-2025 21:57:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/arama_yonetim_ogrenci.php:58
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/arama_yonetim_ogrenci.php on line 58
+[26-Oct-2025 17:57:14 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:14
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(14): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(58): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 14
+[27-Oct-2025 16:52:56 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:14
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(14): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(58): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 14
+[27-Oct-2025 17:13:52 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:14
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(14): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(58): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 14
+[27-Oct-2025 17:15:15 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:14
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(14): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(58): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 14
+[27-Oct-2025 17:19:23 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:14
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(14): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(58): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 14
+[27-Oct-2025 17:23:10 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:14
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(14): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(58): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 14
+[27-Oct-2025 17:30:42 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:14
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(14): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(58): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 14
+[27-Oct-2025 18:03:57 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:24
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(24): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(58): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 24
+[27-Oct-2025 18:08:48 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/arama_iade_ogrenci.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/arama_iade_ogrenci.php on line 37
+[27-Oct-2025 18:08:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/arama_iade_ogrenci.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/arama_iade_ogrenci.php on line 37
+[27-Oct-2025 18:08:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/arama_iade_ogrenci.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/arama_iade_ogrenci.php on line 37
+[27-Oct-2025 18:08:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/arama_iade_ogrenci.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/arama_iade_ogrenci.php on line 37
+[27-Oct-2025 18:09:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/arama_iade_ogrenci.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/arama_iade_ogrenci.php on line 37
+[27-Oct-2025 18:10:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/arama_iade_ogrenci.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/arama_iade_ogrenci.php on line 37
+[27-Oct-2025 18:10:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/arama_iade_ogrenci.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/arama_iade_ogrenci.php on line 37
+[27-Oct-2025 18:10:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/arama_iade_ogrenci.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/arama_iade_ogrenci.php on line 37
+[27-Oct-2025 18:10:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/arama_iade_ogrenci.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/arama_iade_ogrenci.php on line 37
+[27-Oct-2025 18:10:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/arama_iade_ogrenci.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/arama_iade_ogrenci.php on line 37
+[27-Oct-2025 18:12:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/arama_iade_ogrenci.php:45
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/arama_iade_ogrenci.php on line 45
+[27-Oct-2025 18:14:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/test_iade_arama.php:55
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/test_iade_arama.php on line 55
+[27-Oct-2025 18:16:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/arama_iade_ogrenci.php:45
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/arama_iade_ogrenci.php on line 45
+[27-Oct-2025 18:24:40 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:24
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(24): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(58): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 24
+[27-Oct-2025 18:24:52 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:24
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(24): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(58): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 24
+[27-Oct-2025 18:25:30 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:24
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(24): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(58): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 24
+[27-Oct-2025 18:28:46 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:24
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(24): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(58): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 24
+[27-Oct-2025 18:32:27 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:24
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(24): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(58): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 24
+[27-Oct-2025 18:32:31 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:24
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(24): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(58): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 24
+[27-Oct-2025 18:32:46 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:24
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(24): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/ogrenci_giris.php(74): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 24
+[27-Oct-2025 18:33:00 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:24
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(24): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(58): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 24
+[27-Oct-2025 18:37:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php:122
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php on line 122
+[27-Oct-2025 19:02:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php:133
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php on line 133
+[27-Oct-2025 19:02:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php:133
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php on line 133
+[27-Oct-2025 19:02:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php:133
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php on line 133
+[27-Oct-2025 19:08:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php:133
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php on line 133
+[27-Oct-2025 19:16:57 UTC] PHP Warning:  Undefined variable $types in /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php on line 113
+[27-Oct-2025 19:16:57 UTC] PHP Deprecated:  mysqli_stmt::bind_param(): Passing null to parameter #1 ($types) of type string is deprecated in /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php on line 113
+[27-Oct-2025 19:16:57 UTC] PHP Fatal error:  Uncaught ValueError: mysqli_stmt::bind_param(): Argument #1 ($types) cannot be empty in /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php:113
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php(113): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php on line 113
+[27-Oct-2025 19:17:04 UTC] PHP Warning:  Undefined variable $types in /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php on line 113
+[27-Oct-2025 19:17:04 UTC] PHP Deprecated:  mysqli_stmt::bind_param(): Passing null to parameter #1 ($types) of type string is deprecated in /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php on line 113
+[27-Oct-2025 19:17:04 UTC] PHP Fatal error:  Uncaught ValueError: mysqli_stmt::bind_param(): Argument #1 ($types) cannot be empty in /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php:113
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php(113): mysqli_stmt->bind_param()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php on line 113
+[27-Oct-2025 19:22:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method PDF::TabloOlustur() in /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php:152
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php on line 152
+[27-Oct-2025 19:37:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php:127
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php on line 127
+[27-Oct-2025 19:42:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php:127
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php on line 127
+[27-Oct-2025 19:44:11 UTC] PHP Fatal error:  Uncaught Exception: tFPDF error: Undefined font: dejavu B in /home/acc943aecakayme/public_html/okul_kutuphane/tfpdf/tfpdf.php:276
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/tfpdf/tfpdf.php(602): tFPDF->Error()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php(54): tFPDF->SetFont()
+#2 /home/acc943aecakayme/public_html/okul_kutuphane/rapor_olustur.php(194): PDF->OkumaKarnesi()
+#3 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/tfpdf/tfpdf.php on line 276
+[27-Oct-2025 21:25:55 UTC] PHP Warning:  Undefined variable $conn in /home/acc943aecakayme/public_html/okul_kutuphane/kitaplar.php on line 23
+[27-Oct-2025 21:25:55 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/acc943aecakayme/public_html/okul_kutuphane/kitaplar.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/kitaplar.php on line 23
+[27-Oct-2025 21:30:51 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'o.ad_soyad' in 'field list' in /home/acc943aecakayme/public_html/okul_kutuphane/arama_yonetim_ogrenci.php:57
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/arama_yonetim_ogrenci.php(57): mysqli->prepare()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/arama_yonetim_ogrenci.php on line 57
+[27-Oct-2025 22:28:23 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'i.teslim_tarihi' in 'where clause' in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php:26
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php(26): mysqli->prepare()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php on line 26
+[27-Oct-2025 22:28:46 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'i.teslim_tarihi' in 'where clause' in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php:26
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php(26): mysqli->prepare()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php on line 26
+[27-Oct-2025 22:30:59 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'i.teslim_tarihi' in 'where clause' in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php:26
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php(26): mysqli->prepare()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php on line 26
+[27-Oct-2025 22:31:53 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'i.teslim_tarihi' in 'where clause' in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php:26
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php(26): mysqli->prepare()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php on line 26
+[27-Oct-2025 22:31:54 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'i.teslim_tarihi' in 'where clause' in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php:26
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php(26): mysqli->prepare()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php on line 26
+[27-Oct-2025 22:31:54 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'i.teslim_tarihi' in 'where clause' in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php:26
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php(26): mysqli->prepare()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php on line 26
+[27-Oct-2025 22:31:55 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'i.teslim_tarihi' in 'where clause' in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php:26
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php(26): mysqli->prepare()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php on line 26
+[27-Oct-2025 22:34:27 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'i.teslim_tarihi' in 'where clause' in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php:26
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php(26): mysqli->prepare()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php on line 26
+[27-Oct-2025 22:34:28 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/acc943aecakayme/public_html/okul_kutuphane/config.php:9
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/config.php(9): mysqli->__construct()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(5): require_once('/home/acc943aec...')
+#2 /home/acc943aecakayme/public_html/okul_kutuphane/islemler.php(2): require_once('/home/acc943aec...')
+#3 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/config.php on line 9
+[27-Oct-2025 22:35:07 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/acc943aecakayme/public_html/okul_kutuphane/config.php:9
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/config.php(9): mysqli->__construct()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(5): require_once('/home/acc943aec...')
+#2 /home/acc943aecakayme/public_html/okul_kutuphane/kitaplar.php(2): require_once('/home/acc943aec...')
+#3 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/config.php on line 9
+[27-Oct-2025 22:35:11 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/acc943aecakayme/public_html/okul_kutuphane/config.php:9
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/config.php(9): mysqli->__construct()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/arama_gecmis.php(3): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/config.php on line 9
+[27-Oct-2025 22:35:23 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'i.teslim_tarihi' in 'where clause' in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php:26
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php(26): mysqli->prepare()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php on line 26
+[27-Oct-2025 22:35:24 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/acc943aecakayme/public_html/okul_kutuphane/config.php:9
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/config.php(9): mysqli->__construct()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(5): require_once('/home/acc943aec...')
+#2 /home/acc943aecakayme/public_html/okul_kutuphane/rapor_merkezi.php(2): require_once('/home/acc943aec...')
+#3 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/config.php on line 9
+[27-Oct-2025 22:35:26 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/acc943aecakayme/public_html/okul_kutuphane/config.php:9
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/config.php(9): mysqli->__construct()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php(2): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/config.php on line 9
+[27-Oct-2025 22:35:27 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/acc943aecakayme/public_html/okul_kutuphane/config.php:9
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/config.php(9): mysqli->__construct()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(5): require_once('/home/acc943aec...')
+#2 /home/acc943aecakayme/public_html/okul_kutuphane/sinif_atlat.php(2): require_once('/home/acc943aec...')
+#3 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/config.php on line 9
+[27-Oct-2025 22:51:49 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:22
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(22): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(58): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 22
+[27-Oct-2025 22:54:17 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/acc943aecakayme/public_html/okul_kutuphane/config.php:9
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/config.php(9): mysqli->__construct()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(6): require_once('/home/acc943aec...')
+#2 /home/acc943aecakayme/public_html/okul_kutuphane/rezervasyonlar.php(2): require_once('/home/acc943aec...')
+#3 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/config.php on line 9
+[27-Oct-2025 22:54:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/acc943aecakayme/public_html/okul_kutuphane/config.php:9
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/config.php(9): mysqli->__construct()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(6): require_once('/home/acc943aec...')
+#2 /home/acc943aecakayme/public_html/okul_kutuphane/rezervasyonlar.php(2): require_once('/home/acc943aec...')
+#3 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/config.php on line 9
+[27-Oct-2025 22:54:36 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/acc943aecakayme/public_html/okul_kutuphane/config.php:9
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/config.php(9): mysqli->__construct()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(6): require_once('/home/acc943aec...')
+#2 /home/acc943aecakayme/public_html/okul_kutuphane/rezervasyonlar.php(2): require_once('/home/acc943aec...')
+#3 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/config.php on line 9
+[27-Oct-2025 22:54:37 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/acc943aecakayme/public_html/okul_kutuphane/config.php:9
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/config.php(9): mysqli->__construct()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(6): require_once('/home/acc943aec...')
+#2 /home/acc943aecakayme/public_html/okul_kutuphane/rezervasyonlar.php(2): require_once('/home/acc943aec...')
+#3 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/config.php on line 9
+[27-Oct-2025 22:54:41 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/acc943aecakayme/public_html/okul_kutuphane/config.php:9
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/config.php(9): mysqli->__construct()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(6): require_once('/home/acc943aec...')
+#2 /home/acc943aecakayme/public_html/okul_kutuphane/islemler.php(2): require_once('/home/acc943aec...')
+#3 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/config.php on line 9
+[27-Oct-2025 22:54:51 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'i.teslim_tarihi' in 'where clause' in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php:26
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php(26): mysqli->prepare()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php on line 26
+[27-Oct-2025 22:54:51 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'i.teslim_tarihi' in 'where clause' in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php:26
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php(26): mysqli->prepare()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php on line 26
+[27-Oct-2025 22:56:57 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:10
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(10): mysqli->ping()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(58): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 10
+[28-Oct-2025 06:10:11 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:24
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(24): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(58): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 24
+[28-Oct-2025 06:12:25 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'i.teslim_tarihi' in 'where clause' in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php:26
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php(26): mysqli->prepare()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php on line 26
+[28-Oct-2025 06:57:43 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:24
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(24): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(58): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 24
+[28-Oct-2025 07:02:23 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'i.teslim_tarihi' in 'where clause' in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php:26
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php(26): mysqli->prepare()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php on line 26
+[28-Oct-2025 07:07:51 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/acc943aecakayme/public_html/okul_kutuphane/config.php:9
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/config.php(9): mysqli->__construct()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(5): require_once('/home/acc943aec...')
+#2 /home/acc943aecakayme/public_html/okul_kutuphane/rapor_merkezi.php(2): require_once('/home/acc943aec...')
+#3 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/config.php on line 9
+[28-Oct-2025 07:07:54 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/acc943aecakayme/public_html/okul_kutuphane/config.php:9
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/config.php(9): mysqli->__construct()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(5): require_once('/home/acc943aec...')
+#2 /home/acc943aecakayme/public_html/okul_kutuphane/islemler.php(2): require_once('/home/acc943aec...')
+#3 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/config.php on line 9
+[28-Oct-2025 07:07:55 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/acc943aecakayme/public_html/okul_kutuphane/config.php:9
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/config.php(9): mysqli->__construct()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(5): require_once('/home/acc943aec...')
+#2 /home/acc943aecakayme/public_html/okul_kutuphane/islemler.php(2): require_once('/home/acc943aec...')
+#3 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/config.php on line 9
+[28-Oct-2025 07:07:56 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/acc943aecakayme/public_html/okul_kutuphane/config.php:9
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/config.php(9): mysqli->__construct()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(5): require_once('/home/acc943aec...')
+#2 /home/acc943aecakayme/public_html/okul_kutuphane/islemler.php(2): require_once('/home/acc943aec...')
+#3 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/config.php on line 9
+[28-Oct-2025 07:07:57 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/acc943aecakayme/public_html/okul_kutuphane/config.php:9
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/config.php(9): mysqli->__construct()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(9): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/config.php on line 9
+[28-Oct-2025 07:08:12 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/acc943aecakayme/public_html/okul_kutuphane/config.php:9
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/config.php(9): mysqli->__construct()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(5): require_once('/home/acc943aec...')
+#2 /home/acc943aecakayme/public_html/okul_kutuphane/rezervasyonlar.php(2): require_once('/home/acc943aec...')
+#3 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/config.php on line 9
+[28-Oct-2025 07:08:13 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/acc943aecakayme/public_html/okul_kutuphane/config.php:9
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/config.php(9): mysqli->__construct()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(5): require_once('/home/acc943aec...')
+#2 /home/acc943aecakayme/public_html/okul_kutuphane/gecikenler.php(2): require_once('/home/acc943aec...')
+#3 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/config.php on line 9
+[28-Oct-2025 07:08:15 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/acc943aecakayme/public_html/okul_kutuphane/config.php:9
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/config.php(9): mysqli->__construct()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(5): require_once('/home/acc943aec...')
+#2 /home/acc943aecakayme/public_html/okul_kutuphane/ogrenciler.php(2): require_once('/home/acc943aec...')
+#3 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/config.php on line 9
+[28-Oct-2025 07:08:53 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'i.teslim_tarihi' in 'where clause' in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php:26
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php(26): mysqli->prepare()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php on line 26
+[28-Oct-2025 07:09:02 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'i.teslim_tarihi' in 'where clause' in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php:26
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php(26): mysqli->prepare()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php on line 26
+[28-Oct-2025 07:09:21 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'i.teslim_tarihi' in 'where clause' in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php:26
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php(26): mysqli->prepare()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php on line 26
+[28-Oct-2025 07:09:42 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:24
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(24): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/ogrenci_giris.php(74): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 24
+[28-Oct-2025 07:09:55 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:24
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(24): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/ogrenci_giris.php(74): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 24
+[28-Oct-2025 07:10:08 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:24
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(24): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(58): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 24
+[28-Oct-2025 07:12:23 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'i.teslim_tarihi' in 'where clause' in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php:26
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php(26): mysqli->prepare()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php on line 26
+[28-Oct-2025 07:13:06 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'i.teslim_tarihi' in 'where clause' in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php:26
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php(26): mysqli->prepare()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php on line 26
+[28-Oct-2025 07:13:32 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'i.teslim_tarihi' in 'where clause' in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php:24
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php(24): mysqli->prepare()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php on line 24
+[28-Oct-2025 07:13:34 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'i.teslim_tarihi' in 'where clause' in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php:24
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php(24): mysqli->prepare()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php on line 24
+[28-Oct-2025 07:13:35 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'i.teslim_tarihi' in 'where clause' in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php:24
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php(24): mysqli->prepare()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php on line 24
+[28-Oct-2025 07:13:36 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'i.teslim_tarihi' in 'where clause' in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php:24
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php(24): mysqli->prepare()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php on line 24
+[28-Oct-2025 07:15:36 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'i.teslim_tarihi' in 'where clause' in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php:24
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php(24): mysqli->prepare()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php on line 24
+[28-Oct-2025 07:15:37 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'i.teslim_tarihi' in 'where clause' in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php:24
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php(24): mysqli->prepare()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php on line 24
+[28-Oct-2025 07:15:38 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'i.teslim_tarihi' in 'where clause' in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php:24
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php(24): mysqli->prepare()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php on line 24
+[28-Oct-2025 07:17:06 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'i.teslim_tarihi' in 'where clause' in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php:24
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php(24): mysqli->prepare()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php on line 24
+[28-Oct-2025 07:17:07 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'i.teslim_tarihi' in 'where clause' in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php:24
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php(24): mysqli->prepare()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php on line 24
+[28-Oct-2025 07:19:10 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'i.teslim_tarihi' in 'where clause' in /home/acc943aecakayme/public_html/okul_kutuphane/test.php:57
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/test.php(57): mysqli->prepare()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/test.php on line 57
+[28-Oct-2025 07:20:41 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'o.ad_soyad' in 'field list' in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php:36
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php(36): mysqli->prepare()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php on line 36
+[28-Oct-2025 07:20:42 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'o.ad_soyad' in 'field list' in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php:36
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php(36): mysqli->prepare()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php on line 36
+[28-Oct-2025 07:20:43 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'o.ad_soyad' in 'field list' in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php:36
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php(36): mysqli->prepare()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php on line 36
+[28-Oct-2025 07:20:44 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'o.ad_soyad' in 'field list' in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php:36
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php(36): mysqli->prepare()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php on line 36
+[28-Oct-2025 07:20:45 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'o.ad_soyad' in 'field list' in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php:36
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php(36): mysqli->prepare()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php on line 36
+[28-Oct-2025 07:20:48 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'o.ad_soyad' in 'field list' in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php:36
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php(36): mysqli->prepare()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php on line 36
+[28-Oct-2025 07:21:17 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'o.ad_soyad' in 'field list' in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php:36
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php(36): mysqli->prepare()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php on line 36
+[28-Oct-2025 07:21:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'o.ad_soyad' in 'field list' in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php:36
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php(36): mysqli->prepare()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php on line 36
+[28-Oct-2025 07:21:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'o.ad_soyad' in 'field list' in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php:36
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php(36): mysqli->prepare()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php on line 36
+[28-Oct-2025 07:21:24 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:24
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(24): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(58): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 24
+[28-Oct-2025 07:21:25 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'o.ad_soyad' in 'field list' in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php:36
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php(36): mysqli->prepare()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php on line 36
+[28-Oct-2025 07:23:17 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'o.ad_soyad' in 'field list' in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php:36
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php(36): mysqli->prepare()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php on line 36
+[28-Oct-2025 07:23:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'o.ad_soyad' in 'field list' in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php:36
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php(36): mysqli->prepare()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php on line 36
+[28-Oct-2025 07:23:49 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'o.ad_soyad' in 'field list' in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php:36
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php(36): mysqli->prepare()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php on line 36
+[28-Oct-2025 09:15:16 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:24
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(24): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(58): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 24
+[28-Oct-2025 15:02:19 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:24
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(24): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(58): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 24
+[28-Oct-2025 15:06:02 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'o.ad_soyad' in 'field list' in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php:36
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php(36): mysqli->prepare()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php on line 36
+[28-Oct-2025 15:06:04 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'o.ad_soyad' in 'field list' in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php:36
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php(36): mysqli->prepare()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php on line 36
+[28-Oct-2025 15:17:57 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'o.ad_soyad' in 'field list' in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php:36
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php(36): mysqli->prepare()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php on line 36
+[28-Oct-2025 18:40:28 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:24
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(24): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(58): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 24
+[28-Oct-2025 18:41:02 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:24
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(24): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(58): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 24
+[28-Oct-2025 18:41:13 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:24
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(24): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/ogrenci_giris.php(74): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 24
+[28-Oct-2025 18:41:36 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:24
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(24): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/ogrenci_giris.php(74): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 24
+[28-Oct-2025 18:41:43 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:24
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(24): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(58): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 24
+[28-Oct-2025 18:41:56 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:24
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(24): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(58): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 24
+[28-Oct-2025 18:56:14 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:24
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(24): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/ogrenci_giris.php(74): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 24
+[28-Oct-2025 18:56:22 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:24
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(24): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(58): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 24
+[28-Oct-2025 18:59:25 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:24
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(24): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/ogrenci_giris.php(74): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 24
+[28-Oct-2025 19:01:13 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:24
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(24): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(58): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 24
+[28-Oct-2025 19:02:54 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:24
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(24): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/ogrenci_giris.php(74): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 24
+[28-Oct-2025 19:04:17 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:24
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(24): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(58): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 24
+[28-Oct-2025 19:05:15 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:24
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(24): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/ogrenci_giris.php(74): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 24
+[28-Oct-2025 19:07:13 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:24
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(24): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(58): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 24
+[28-Oct-2025 19:29:22 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'o.ad_soyad' in 'field list' in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php:36
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php(36): mysqli->prepare()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php on line 36
+[28-Oct-2025 19:29:23 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'o.ad_soyad' in 'field list' in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php:36
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php(36): mysqli->prepare()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php on line 36
+[28-Oct-2025 20:00:27 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:24
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(24): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(58): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 24
+[28-Oct-2025 20:04:25 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'o.ad_soyad' in 'field list' in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php:36
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php(36): mysqli->prepare()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php on line 36
+[28-Oct-2025 20:12:34 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'odunc_suresi' in 'field list' in /home/acc943aecakayme/public_html/okul_kutuphane/islemler.php:12
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/islemler.php(12): mysqli->prepare()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/islemler.php on line 12
+[28-Oct-2025 20:13:10 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'odunc_suresi' in 'field list' in /home/acc943aecakayme/public_html/okul_kutuphane/islemler.php:12
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/islemler.php(12): mysqli->prepare()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/islemler.php on line 12
+[28-Oct-2025 20:15:17 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'varsayilan_odunc_suresi' in 'field list' in /home/acc943aecakayme/public_html/okul_kutuphane/islemler.php:14
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/islemler.php(14): mysqli->prepare()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/islemler.php on line 14
+[28-Oct-2025 20:15:18 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'varsayilan_odunc_suresi' in 'field list' in /home/acc943aecakayme/public_html/okul_kutuphane/islemler.php:14
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/islemler.php(14): mysqli->prepare()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/islemler.php on line 14
+[28-Oct-2025 20:15:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'varsayilan_odunc_suresi' in 'field list' in /home/acc943aecakayme/public_html/okul_kutuphane/islemler.php:14
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/islemler.php(14): mysqli->prepare()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/islemler.php on line 14
+[28-Oct-2025 20:15:19 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'varsayilan_odunc_suresi' in 'field list' in /home/acc943aecakayme/public_html/okul_kutuphane/islemler.php:14
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/islemler.php(14): mysqli->prepare()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/islemler.php on line 14
+[29-Oct-2025 07:19:06 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:16
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(16): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(58): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 16
+[29-Oct-2025 07:19:06 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'odunc_suresi' in 'field list' in /home/acc943aecakayme/public_html/okul_kutuphane/islemler.php:14
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/islemler.php(14): mysqli->prepare()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/islemler.php on line 14
+[29-Oct-2025 07:19:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'odunc_suresi' in 'field list' in /home/acc943aecakayme/public_html/okul_kutuphane/islemler.php:14
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/islemler.php(14): mysqli->prepare()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/islemler.php on line 14
+[29-Oct-2025 07:19:10 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'odunc_suresi' in 'field list' in /home/acc943aecakayme/public_html/okul_kutuphane/islemler.php:14
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/islemler.php(14): mysqli->prepare()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/islemler.php on line 14
+[29-Oct-2025 19:30:43 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:16
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(16): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(58): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 16
+[29-Oct-2025 19:33:59 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'o.ad_soyad' in 'field list' in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php:36
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php(36): mysqli->prepare()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php on line 36
+[29-Oct-2025 19:35:35 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:16
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(16): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(58): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 16
+[29-Oct-2025 19:35:56 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'o.ad_soyad' in 'field list' in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php:36
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php(36): mysqli->prepare()
+#1 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/veri_raporlar.php on line 36
+[30-Oct-2025 06:46:30 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:24
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(24): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/ogrenci_giris.php(74): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 24
+[30-Oct-2025 06:46:41 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:24
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(24): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/ogrenci_giris.php(74): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 24
+[30-Oct-2025 06:47:03 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:24
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(24): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(58): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 24
+[30-Oct-2025 07:32:14 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:24
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(24): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/ogrenci_giris.php(74): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 24
+[30-Oct-2025 07:32:26 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:24
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(24): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(58): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 24
+[30-Oct-2025 07:32:43 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:24
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(24): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/ogrenci_giris.php(74): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 24
+[30-Oct-2025 07:33:01 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:24
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(24): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(58): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 24
+[30-Oct-2025 07:35:09 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:24
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(24): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/ogrenci_giris.php(74): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 24
+[30-Oct-2025 07:35:19 UTC] PHP Fatal error:  Uncaught Error: mysqli object is already closed in /home/acc943aecakayme/public_html/okul_kutuphane/header.php:24
+Stack trace:
+#0 /home/acc943aecakayme/public_html/okul_kutuphane/header.php(24): mysqli->prepare()
+#1 /home/acc943aecakayme/public_html/okul_kutuphane/login.php(58): require_once('/home/acc943aec...')
+#2 {main}
+  thrown in /home/acc943aecakayme/public_html/okul_kutuphane/header.php on line 24

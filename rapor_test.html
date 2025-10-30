@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birleşik İşlem Geçmişi ve Raporlama</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.8.2/jspdf.plugin.autotable.min.js"></script>
+
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f4f7f9;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            background: #fff;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+        .filters {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: #f8f9fa;
+            border-radius: 6px;
+        }
+        .filters > div {
+            display: flex;
+            flex-direction: column;
+        }
+        .filters label {
+            font-size: 0.9em;
+            margin-bottom: 5px;
+            color: #555;
+        }
+        .filters input, .filters select {
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .actions {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .btn {
+            padding: 10px 18px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+            transition: background-color 0.3s;
+        }
+        .btn-primary {
+            background-color: #3498db;
+            color: white;
+        }
+        .btn-primary:hover { background-color: #2980b9; }
+        .btn-secondary {
+            background-color: #2ecc71;
+            color: white;
+        }
+        .btn-secondary:hover { background-color: #27ae60; }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        th {
+            background-color: #ecf0f1;
+            color: #34495e;
+        }
+        tbody tr:nth-child(even) { background-color: #f9f9f9; }
+        .income { color: #27ae60; font-weight: bold; }
+        .expense { color: #c0392b; font-weight: bold; }
+        #record-count {
+            font-style: italic;
+            color: #7f8c8d;
+        }
+
+        /* Modal Stilleri */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0,0,0,0.5);
+        }
+        .modal-content {
+            background-color: #fefefe;
+            margin: 10% auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%;
+            max-width: 500px;
+            border-radius: 8px;
+            animation: fadeIn 0.3s;
+        }
+        @keyframes fadeIn {
+            from {opacity: 0; transform: scale(0.9);}
+            to {opacity: 1; transform: scale(1);}
+        }
+        .close-btn {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .close-btn:hover, .close-btn:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .modal-body { padding-top: 10px; }
+        .modal-body label { display: block; margin-bottom: 10px; }
+        .modal-body input[type="text"] {
+            width: calc(100% - 20px);
+            padding: 8px;
+        }
+        .modal-section { margin-top: 20px; }
+        .modal-section h4 { margin-top: 0; }
+        .column-options label {
+            display: inline-block;
+            margin-right: 15px;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>İşlem Geçmişi</h1>
+
+        <div class="filters">
+            <div>
+                <label for="start-date">Başlangıç Tarihi</label>
+                <input type="date" id="start-date">
+            </div>
+            <div>
+                <label for="end-date">Bitiş Tarihi</label>
+                <input type="date" id="end-date">
+            </div>
+            <div>
+                <label for="search-box">Açıklama Ara</label>
+                <input type="text" id="search-box" placeholder="Örn: Fatura, Maaş...">
+            </div>
+            <div>
+                <label for="transaction-type">İşlem Tipi</label>
+                <select id="transaction-type">
+                    <option value="all">Tümü</option>
+                    <option value="income">Gelir</option>
+                    <option value="expense">Gider</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="actions">
+            <button id="filter-btn" class="btn btn-primary">Filtrele</button>
+            <span id="record-count"></span>
+            <button id="generate-report-btn" class="btn btn-secondary">PDF Raporu Oluştur</button>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Tarih</th>
+                    <th>Açıklama</th>
+                    <th>Tip</th>
+                    <th>Tutar</th>
+                </tr>
+            </thead>
+            <tbody id="transaction-table-body">
+                </tbody>
+        </table>
+    </div>
+
+    <div id="report-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>Rapor Ayarları</h2>
+            <div class="modal-body">
+                <label for="report-title">Rapor Başlığı (isteğe bağlı)</label>
+                <input type="text" id="report-title" placeholder="Örn: Ekim Ayı Gider Raporu">
+
+                <div class="modal-section">
+                    <h4>Raporda Gösterilecek Sütunlar</h4>
+                    <div class="column-options">
+                        <label><input type="checkbox" id="col-date" checked> Tarih</label>
+                        <label><input type="checkbox" id="col-desc" checked> Açıklama</label>
+                        <label><input type="checkbox" id="col-type" checked> Tip</label>
+                        <label><input type="checkbox" id="col-amount" checked> Tutar</label>
+                    </div>
+                </div>
+
+                <div class="modal-section">
+                    <h4>Ek Seçenekler</h4>
+                    <label><input type="checkbox" id="include-summary" checked> Rapor sonuna özet tablosu ekle</label>
+                </div>
+
+                <button id="download-pdf-btn" class="btn btn-secondary" style="width:100%; margin-top: 20px;">Oluştur ve İndir</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        // --- ÖRNEK VERİ SETİ ---
+        const sampleData = [
+            { date: '2025-10-01', description: 'Maaş Ödemesi', type: 'income', amount: 15000 },
+            { date: '2025-10-02', description: 'Market Alışverişi', type: 'expense', amount: 750 },
+            { date: '2025-10-05', description: 'Elektrik Faturası', type: 'expense', amount: 450 },
+            { date: '2025-10-10', description: 'Kira Ödemesi', type: 'expense', amount: 5000 },
+            { date: '2025-10-15', description: 'Freelance Proje Geliri', type: 'income', amount: 2500 },
+            { date: '2025-10-20', description: 'İnternet Faturası', type: 'expense', amount: 200 },
+            { date: '2025-10-22', description: 'Restoran Yemeği', type: 'expense', amount: 350 },
+            { date: '2025-10-28', description: 'Telefon Faturası', type: 'expense', amount: 150 },
+            { date: '2025-11-01', description: 'Maaş Ödemesi', type: 'income', amount: 15000 },
+            { date: '2025-11-03', description: 'Market Alışverişi', type: 'expense', amount: 800 },
+        ];
+        let currentFilteredData = [];
+
+        // --- DOM ELEMENTLERİ ---
+        const tableBody = document.getElementById('transaction-table-body');
+        const recordCountSpan = document.getElementById('record-count');
+        const filterBtn = document.getElementById('filter-btn');
+
+        // Filtre inputları
+        const startDateInput = document.getElementById('start-date');
+        const endDateInput = document.getElementById('end-date');
+        const searchInput = document.getElementById('search-box');
+        const typeSelect = document.getElementById('transaction-type');
+
+        // Modal elementleri
+        const modal = document.getElementById('report-modal');
+        const generateReportBtn = document.getElementById('generate-report-btn');
+        const closeBtn = document.querySelector('.close-btn');
+        const downloadPdfBtn = document.getElementById('download-pdf-btn');
+
+
+        // --- FONKSİYONLAR ---
+
+        /**
+         * Verilen veri dizisini tabloya render eder.
+         * @param {Array} data Gösterilecek işlem verileri
+         */
+        function renderTable(data) {
+            tableBody.innerHTML = ''; // Tabloyu temizle
+            if (data.length === 0) {
+                tableBody.innerHTML = '<tr><td colspan="4" style="text-align:center;">Filtreye uygun kayıt bulunamadı.</td></tr>';
+            } else {
+                data.forEach(tx => {
+                    const row = document.createElement('tr');
+                    const typeClass = tx.type === 'income' ? 'income' : 'expense';
+                    const typeText = tx.type === 'income' ? 'Gelir' : 'Gider';
+                    
+                    row.innerHTML = `
+                        <td>${new Date(tx.date).toLocaleDateString('tr-TR')}</td>
+                        <td>${tx.description}</td>
+                        <td><span class="${typeClass}">${typeText}</span></td>
+                        <td><span class="${typeClass}">${tx.amount.toLocaleString('tr-TR', { style: 'currency', currency: 'TRY' })}</span></td>
+                    `;
+                    tableBody.appendChild(row);
+                });
+            }
+            recordCountSpan.textContent = `${data.length} kayıt bulundu.`;
+        }
+
+        /**
+         * Filtre inputlarına göre veriyi filtreler ve tabloyu günceller.
+         */
+        function applyFilters() {
+            const startDate = startDateInput.value;
+            const endDate = endDateInput.value;
+            const searchTerm = searchInput.value.toLowerCase();
+            const selectedType = typeSelect.value;
+
+            currentFilteredData = sampleData.filter(tx => {
+                const txDate = new Date(tx.date);
+                if (startDate && txDate < new Date(startDate)) return false;
+                if (endDate && txDate > new Date(endDate)) return false;
+                if (searchTerm && !tx.description.toLowerCase().includes(searchTerm)) return false;
+                if (selectedType !== 'all' && tx.type !== selectedType) return false;
+                return true;
+            });
+
+            renderTable(currentFilteredData);
+        }
+
+        // --- MODAL İŞLEVSELLİĞİ ---
+        generateReportBtn.onclick = () => {
+            modal.style.display = 'block';
+        };
+        closeBtn.onclick = () => {
+            modal.style.display = 'none';
+        };
+        window.onclick = (event) => {
+            if (event.target == modal) {
+                modal.style.display = 'none';
+            }
+        };
+
+        // --- PDF OLUŞTURMA MANTIĞI ---
+        downloadPdfBtn.onclick = () => {
+            const { jsPDF } = window.jspdf;
+            const doc = new jsPDF();
+
+            const reportTitle = document.getElementById('report-title').value || "İşlem Geçmişi Raporu";
+            
+            // Seçilen sütunlara göre başlık ve veri hazırla
+            const columns = [];
+            const tableHead = [];
+            if (document.getElementById('col-date').checked) { columns.push('date'); tableHead.push('Tarih'); }
+            if (document.getElementById('col-desc').checked) { columns.push('description'); tableHead.push('Açıklama'); }
+            if (document.getElementById('col-type').checked) { columns.push('type'); tableHead.push('Tip'); }
+            if (document.getElementById('col-amount').checked) { columns.push('amount'); tableHead.push('Tutar'); }
+
+            const tableBody = currentFilteredData.map(tx => {
+                return columns.map(col => {
+                    if (col === 'date') return new Date(tx.date).toLocaleDateString('tr-TR');
+                    if (col === 'type') return tx.type === 'income' ? 'Gelir' : 'Gider';
+                    if (col === 'amount') return tx.amount.toLocaleString('tr-TR') + ' TL';
+                    return tx[col];
+                });
+            });
+
+            // PDF'e başlığı ekle
+            doc.text(reportTitle, 14, 15);
+
+            // Tabloyu oluştur
+            doc.autoTable({
+                head: [tableHead],
+                body: tableBody,
+                startY: 25,
+                styles: { font: 'helvetica', fontSize: 10 },
+                headStyles: { fillColor: [44, 62, 80] }, // Koyu mavi başlık
+            });
+
+            let finalY = doc.lastAutoTable.finalY || 25; // Tablonun bittiği Y pozisyonu
+
+            // Özet tablosu ekle
+            if (document.getElementById('include-summary').checked) {
+                const totalIncome = currentFilteredData.filter(t => t.type === 'income').reduce((sum, t) => sum + t.amount, 0);
+                const totalExpense = currentFilteredData.filter(t => t.type === 'expense').reduce((sum, t) => sum + t.amount, 0);
+                const netTotal = totalIncome - totalExpense;
+
+                doc.text("Rapor Özeti", 14, finalY + 15);
+                const summaryBody = [
+                    ['Toplam Gelir:', totalIncome.toLocaleString('tr-TR') + ' TL'],
+                    ['Toplam Gider:', totalExpense.toLocaleString('tr-TR') + ' TL'],
+                    ['Net Durum:', netTotal.toLocaleString('tr-TR') + ' TL']
+                ];
+                doc.autoTable({
+                    body: summaryBody,
+                    startY: finalY + 20,
+                    theme: 'grid',
+                    styles: {
+                        cellWidth: 'wrap'
+                    },
+                    columnStyles: {
+                        0: { fontStyle: 'bold' }
+                    }
+                });
+            }
+
+            // PDF'i kaydet
+            doc.save(`${reportTitle.replace(/ /g, '_').toLowerCase()}.pdf`);
+            modal.style.display = 'none'; // İşlem sonrası modalı kapat
+        };
+
+
+        // --- OLAY DİNLEYİCİLERİ VE İLK ÇAĞRI ---
+        filterBtn.addEventListener('click', applyFilters);
+        
+        // Sayfa yüklendiğinde tüm verileri göster
+        window.addEventListener('DOMContentLoaded', () => {
+            // Tarih alanlarına bugünün tarihini atayabiliriz (isteğe bağlı)
+            // endDateInput.value = new Date().toISOString().split('T')[0];
+            applyFilters();
+        });
+
+    </script>
+</body>
+</html>
